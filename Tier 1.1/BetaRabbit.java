@@ -20,5 +20,6 @@ public class BetaRabbit {
 		System.out.println("Enter the number:");
 		int x = in.nextInt();
 		System.out.println(answer(x));
+		in.close();
 	}
 }
