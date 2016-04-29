@@ -1,7 +1,17 @@
 import java.util.*;
 public class BetaRabbit {
 	public static int answer(int x){
-		int result = x%9;
+		int result=0;
+		if(x==0)
+		{
+			result=0;
+		}
+		else if(x%9==0){
+			result=9;
+		}
+		else{
+			result=x%9;
+		}
 		return result;
 	}
 	
